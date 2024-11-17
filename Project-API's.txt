@@ -1,0 +1,52 @@
+Post http://127.0.0.1:5000/register
+
+Expected body:
+{
+  "username": "test",
+  "password": "test123"
+}
+
+
+Post http://127.0.0.1:5000/login
+
+Expected body:
+{
+  "username": "test",
+  "password": "test123"
+}
+
+Once you sumbit login, you will get a access_token , use this acces token in the Authorization Tab
+auth type :Bearer Token
+token : "your access_token" 
+
+
+
+
+Post http://127.0.0.1:5000/cart [make sure you have the access token ]
+
+{
+  "item_name": "Apple",
+  "quantity": 5
+}
+
+Add Items to cart
+
+
+Get http://127.0.0.1:5000/cart [make sure you have the access token ]
+
+Retrieving the cart info 
+
+example:
+{
+    "items": [
+        {
+            "item_name": "IPhone",
+            "quantity": 6
+        },
+        {
+            "item_name": "Apple",
+            "quantity": 5
+        }
+    ],
+    "user_id": "783cd96e-58b3-43bb-98d6-922368281778"
+}

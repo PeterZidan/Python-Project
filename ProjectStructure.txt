@@ -1,0 +1,25 @@
+PythonCartProject/
+├── cart_service/
+│   ├── __init__.py
+│   ├── app.py
+│   ├── models.py
+├── frontend_service/
+│   ├── __init__.py
+│   ├── app.py
+│   ├── config.py
+├── user_service/
+│   ├── __init__.py
+│   ├── app.py
+│   ├── models.py
+│   ├── auth.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_cart_service.py
+│   ├── test_frontend_service.py
+│   ├── test_user_service.py
+├── requirements.txt
+├── config.py
+├── db.json
+
+
+

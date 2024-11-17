@@ -1,0 +1,14 @@
+Follow these steps:
+
+1. Open requirements.txt and download the required libraries
+
+Once you downloaded all the libraries
+
+Run the microservices :
+python -m cart_service.app
+python -m user_service.app
+python -m frontend_service.app
+
+Run the project tests :
+python -m unittest discover tests
+
